@@ -35,6 +35,6 @@ function handleTimeChange() {
 }
 
 function startStopWatch() {
-
+    setInterval(handleTimeChange, 10);
 }
-setInterval(handleTimeChange, 10);
+
