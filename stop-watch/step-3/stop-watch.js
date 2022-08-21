@@ -33,4 +33,8 @@ function handleTimeChange() {
     }
     displayTime();
 }
+
+function startStopWatch() {
+
+}
 setInterval(handleTimeChange, 10);
