@@ -4,8 +4,12 @@ function Timer(initialTime) {
     this.createTimer = function () {
         const timersContainers = document.querySelector('#timers-container');
 
-        timersContainers.innerHTML += '<div>new timer</div>';
-        console.log('create timer');
+        const timerElement = document.createElement('div');
+        timerElement.innerText = 'new timer with create element';
+
+        timersContainers.appendChild(timerElement);
+        // timersContainers.innerHTML += '<div>new timer</div>';
+        // console.log('create timer');
     }
 }
 
