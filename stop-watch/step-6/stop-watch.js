@@ -1,3 +1,4 @@
+
 const stopWatchView = document.querySelector('#stop-watch-view');
 const toggleStopWatchButton = document.querySelector('#toggle-stop-watch');
 toggleStopWatchButton.addEventListener('click', toggleStopWatch);
@@ -15,7 +16,7 @@ let seconds = 0;
 let minutes = 0;
 
 function getTimeString() {
-    let seconsString = seconds;
+    let secondsString = seconds;
     if (seconds < 10) {
         secondsString = '0' + seconds;
     }
@@ -73,3 +74,4 @@ function toggleStopWatch() {
         stopStopWatch();
     }
 }
+
