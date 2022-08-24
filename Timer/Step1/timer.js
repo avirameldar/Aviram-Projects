@@ -1,8 +1,8 @@
 const fullName = {
     name: 'Aviram',
     Last_name: 'Eldar',
-    fname: function () {
-        console.log('fname function');
+    fname: function (name) {
+        console.log('fname function', name);
     },
 };
 
