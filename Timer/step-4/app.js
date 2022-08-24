@@ -6,7 +6,8 @@ import Timer from './timers.js';
 document.querySelector('#create-timer').addEventListener('click', addTimer)
 const timerInput = document.querySelector('#time-input')
 function addTimer() {
-    console.log('add new timer');
+
     const initialTime = document.querySelector('#time-input').value;
-    console.log('value from input', initialTime);
+    const timer = new Timer(initialTime);
+    console.log('timer', timer);
 }
