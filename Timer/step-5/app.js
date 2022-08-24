@@ -9,5 +9,6 @@ function addTimer() {
 
     const initialTime = document.querySelector('#time-input').value;
     const timer = new Timer(initialTime);
+    timer.createTimer();
     console.log('timer', timer);
 }
