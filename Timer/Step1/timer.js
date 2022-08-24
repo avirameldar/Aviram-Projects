@@ -1,11 +1,11 @@
 const fullName = {
     name: 'Aviram',
     Last_name: 'Eldar',
-    fnmae: function () {
+    fname: function () {
         console.log('fname function');
     },
 };
 
-fullName.name.fname();
+fullName.fname('timer.js');
 
 export default fullName;
