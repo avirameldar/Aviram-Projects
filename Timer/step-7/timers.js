@@ -1,4 +1,4 @@
-function Timer(initialTime) {
+function timer(initialTime) {
     let timerElement;
 
     this.initialTime = initialTime;
@@ -31,4 +31,4 @@ function Timer(initialTime) {
     }
 }
 
-export default Timer;
+export default timer;
